@@ -65,6 +65,7 @@ class Board {
   }
 
   checkBoardCondition() {
+    // TODO: CHECK WINNING CONDITIONS FOR PLAYER
     console.log('Who is winning...?')
   }
 
