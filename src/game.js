@@ -44,9 +44,6 @@ function handleMouseDown(event) {
       board.updateBoard(column);
     }
   }
-  // TODO: 
-  // We need to start thinking about 'columns', not 'circles'.
-  // I.e the user will select a column instead of the empty circles directly.
   clearCanvas();
   board.renderBoard(ctx);
   board.checkBoardCondition();
